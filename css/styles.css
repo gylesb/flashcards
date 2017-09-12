@@ -11,3 +11,30 @@ ul {
   color: blue;
   list-style: none;
 }
+
+#jsDef, #opDef, #var1Def, #var2Def, #funcDef, #methDef, #argDef, #parDef, #retDef, #chainDef{
+ display: none;
+}
+
+#strDef, #booDef, #undDef, #nanDef, #escDef, #alertDef, #cmdDef, #jqDef, #atrDef{
+display: none;
+}
+
+#js, #op, #var1, #var2, #func, #meth, #arg, #par, #ret, #chain{
+ color: blue;
+ cursor: pointer;
+}
+
+#str, #boo, #und, #nan, #esc, #alert, #cmd, #jq, #atr{
+ color: blue;
+ cursor: pointer;
+}
+
+#js, #op, #var1, #var2, #func, #meth, #arg, #par, #ret, #chain:hover {
+ text-decoration: underline;
+}
+
+
+#str, #boo, #und, #nan, #esc, #alert, #cmd, #jq, #atr:hover {
+ text-decoration: underline;
+}
