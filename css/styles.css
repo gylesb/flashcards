@@ -1,0 +1,13 @@
+.jumbotron {
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  color: blue;
+  list-style: none;
+}
